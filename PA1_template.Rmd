@@ -10,7 +10,7 @@ output: html_document
 
 ```{r, echo=TRUE}
 library(dplyr)
-activity <- read.csv("C:\\Users\\Ryan\\Documents\\Coursera - Data Science\\Reproducible Research\\repdata_data_activity\\activity.csv")
+activity <- read.csv("C:\\Users\\Ryan\\Documents\\Coursera\\ReproducibleResearch\\repdata_data_activity\\activity.csv")
 ```
 
 ## Total Steps
