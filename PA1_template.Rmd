@@ -1,8 +1,7 @@
 ---
-<<<<<<< HEAD
 title: "PA1"
 author: "Ryan Emerson"
-date: "Sunday, April 12, 2015"
+date: "Sunday, June 14, 2015"
 output: html_document
 ---
 
@@ -10,7 +9,7 @@ output: html_document
 
 ```{r, echo=TRUE}
 library(dplyr)
-activity <- read.csv("C:\\Users\\Ryan\\Documents\\Coursera\\ReproducibleResearch\\repdata_data_activity\\activity.csv")
+activity <- read.csv("C:\\Users\\Ryan\\Documents\\Coursera\\Reproducible Research\\repdata_data_activity\\activity.csv")
 ```
 
 ## Total Steps
@@ -123,29 +122,3 @@ plot(weekends$interval, weekends$stepsperint, type="l",
      main = "Timeline of Steps per Interval (Weekends)",
      xlab = "Interval", ylab="Steps")
 ```
-=======
-title: "Reproducible Research: Peer Assessment 1"
-output: 
-  html_document:
-    keep_md: true
----
-
-
-## Loading and preprocessing the data
-
-
-
-## What is mean total number of steps taken per day?
-
-
-
-## What is the average daily activity pattern?
-
-
-
-## Imputing missing values
-
-
-
-## Are there differences in activity patterns between weekdays and weekends?
->>>>>>> 80edf39c3bb508fee88e3394542f967dd3fd3270
